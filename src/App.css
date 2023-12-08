@@ -1,0 +1,61 @@
+/* src/App.css */
+body {
+  background-color: black; /* Define o fundo da tela como preto */
+  color: white; /* Define a cor do texto como branco */
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos 100% da altura da tela */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noticias-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px; /* Adiciona algum espaço superior para melhorar a aparência */
+}
+
+.noticias {
+  width: 45%;
+  margin: 10px;
+  text-align: center;
+}
+
+.noticias h2 {
+  color: #007bff; /* Cor da palavra Noticiário */
+  font-weight: bold;
+  margin-bottom: 15px; /* Aumenta o espaço abaixo do título */
+}
+
+.imagem-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.imagem-container a {
+  display: block;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.imagem-container a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao passar o mouse */
+}
+
+.imagem-container img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.imagem-container img:hover {
+  opacity: 0.8; /* Reduz a opacidade ao passar o mouse */
+}

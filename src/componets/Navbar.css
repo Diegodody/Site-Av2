@@ -1,0 +1,32 @@
+/* src/Navbar.css */
+.navbar {
+    background-color: #f8f9fa; /* Cor de fundo da barra de navegação */
+    margin-top: 20px;
+  }
+  
+  .navbar-brand {
+    color: #007bff; /* Cor do texto da marca */
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Cor do ícone do botão de alternância */
+  }
+  
+  .navbar-nav {
+    margin-right: auto; /* Move os itens do menu para a direita */
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Espaçamento entre os itens do menu */
+  }
+  
+  .nav-link {
+    color: #007bff; /* Cor dos links do menu */
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3; /* Cor quando o link é hover */
+  }
+  

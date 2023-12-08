@@ -1,0 +1,66 @@
+/* src/Noticias.css */
+.noticias-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .noticias {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .noticias h2 {
+    color: #007bff; /* Cor da palavra Noticiário */
+    font-weight: bold;
+    margin-bottom: 15px; /* Aumenta o espaço abaixo do título */
+  }
+  
+  .noticias-mundo h2 {
+    color: #28a745; /* Cor da palavra Notícias do Mundo */
+    font-weight: bold;
+    margin-bottom: 15px; /* Aumenta o espaço abaixo do título */
+    position: relative;
+  }
+  
+  .noticias-mundo h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50px; /* Largura da barra */
+    height: 3px; /* Altura da barra */
+    background-color: #28a745; /* Cor da barra */
+    transform: translateX(-50%);
+  }
+  
+  .imagem-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .imagem-container a {
+    display: block;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imagem-container a:hover {
+    transform: scale(1.05);
+  }
+  
+  .imagem-container img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .imagem-container img:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
